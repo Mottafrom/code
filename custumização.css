@@ -1,51 +1,79 @@
 * {
-        margin: 0;
-    }
-    
-    h1 {
-        color: blue;
-        font-size: 20px;
-        background-color: brown;
-    }
-    
-    .divpai {
-        background-color: rgb(91, 91, 101);
-        height: 100vh;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .card {
-        gap: 5px;
-        background-color: rgba(143, 121, 121, 0.993);
-        border-radius: 20px;
-        width: 250px;
-        height: 220px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-
-        transition: all 0.3s ease;
-    }
-
-    .card:hover {
-        transform: scale(1.05);
-  box-shadow: 0 15px rgba (0,0,0,0.4);  
+    margin: 0;
 }
-    
-    button {
-        background-color: azure;
-        padding: 10px;
-        border: none;
-        border-radius: 8px;
-        cursor: pointer;
-        transition: 0.3s;
-    }
 
-    button:hover  {
-        background-color: rgb(180,240,255);
-        transform: scale(1.1);
-    }     
+.titulo-principal {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border: 2px dotted #000000;
+    padding: 30px;
+    border-radius: 20px;
+    width: 800px;
+    margin: 20px auto;
+    font-size: 60px;
+    background-color: #a52a2a;
+    letter-spacing: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 6px 6px 30px black;
+    transition: 1.0s;
+
+}
+
+.divpai {
+    background-color: rgb(91, 91, 101);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    gap: 5px;
+    background-color: rgba(143, 121, 121, 0.993);
+    border-radius: 20px;
+    width: 250px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px rgba (0, 0, 0, 0.4);
+}
+
+button {
+    background-color: azure;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: rgb(180, 240, 255);
+    transform: scale(1.1);
+}
+
+.fundamentos {
+    letter-spacing: 2px;
+    font-family: georgia;
+    text-align: center;
+
+}
+
+.container {display: flex;
+    justify-content:space-between;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background: lightblue;
+    margin: 40px;
+    
+}
